@@ -40,6 +40,7 @@ const closeSubMenu = () =>{
 
 };
 
+
 btnBurger.addEventListener('click', openMenu);
 btnClose.addEventListener('click', closeMenu);
 overlay.addEventListener('click', closeMenu);
