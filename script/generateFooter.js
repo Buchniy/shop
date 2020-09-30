@@ -1,7 +1,5 @@
-'use strict';
-const mainTag = document.querySelector('main');
 const generateFooter = () => {
-    const footer = `
+    const footerHTML = `
     <footer>
         <div class="container">
             <div class="footer">
@@ -39,12 +37,12 @@ const generateFooter = () => {
         </div>
        </div>
 
-   </footer>
+    </footer>
     
     `;
-    mainTag.insertAdjacentHTML('afterend', footer);
-    // document.main.insertAdjacentHTML('afterend', footer);
+    document.body.insertAdjacentHTML('beforeend', footerHTML);
+
 
 
 };
-generateFooter();
+export default generateFooter;

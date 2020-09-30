@@ -1,7 +1,7 @@
-'use strict';
-const footer = document.querySelector('footer');
+
+
 const generateCatalog = () => {
-    const catalog = `
+    const catalogHTML = `
         <div class="catalog">
          <button type="button" class="btn btn-close catalog-btn" id="hnf-menu-close-btn" aria-expanded="true"
                  title="Закрыть меню" aria-label="Закрыть меню">
@@ -24,9 +24,9 @@ const generateCatalog = () => {
         </div>
          
     `;
-    footer.insertAdjacentHTML('afterend', catalog);
+    document.body.insertAdjacentHTML('beforeend', catalogHTML);
 
 
 
 };
-generateCatalog();
+export default generateCatalog;
