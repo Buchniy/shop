@@ -38,7 +38,7 @@ const generateGoodsPage = () => {
                 <p class="goods-item__description">${description}</p>
                 <p class="goods-item__price">
                <span class="goods-item__price-value">${price}</span>
-              <span class="goods-item__currency"> ₽</span>
+              <span class="goods-item__currency"> ₴</span>
                 </p>
                  ${count ? `<button class="btn btn-add-card" aria-label="Добравить в корзину" data-idd="${id}"></button>` : ''}
                 
